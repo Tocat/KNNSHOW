@@ -275,29 +275,13 @@ public class Show implements ActionListener {
             
             
 
-            text1.setText(trainres[0][5]);
+            
             Test1.run(trainDatares,testres,de1,de2,res);
         	
         }  
     } 
     
-    private void newf(){
-		
-		frmTesttitle2 = new JFrame();
-		frmTesttitle2.setTitle("testtitle2");
-		frmTesttitle2.setBounds(200, 200, 800, 600);
-		frmTesttitle2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		frmTesttitle2.setVisible(true);
-		
-		JPanel panel = new JPanel();
-		panel.setBackground(Color.BLUE);
-		FlowLayout flowLayout = (FlowLayout) panel.getLayout();
-		flowLayout.setVgap(80);
-		frmTesttitle2.getContentPane().add(panel, BorderLayout.SOUTH);
-		
-		
-	}
+    
     
     
     
